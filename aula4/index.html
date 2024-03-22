@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Urna Eletrônica</title>
+</head>
+<body>
+   <script src="js/script.js"></script>
+   <div class="principal">
+       <div class="meio">
+            <a href="resultado.html">Resultado</a>
+       </div>
+      
+       
+      
+       <div class="esquerda">
+       <center>
+        <img class="img" src="img/logo.png" alt="logo" id="imgCand">
+        <h1>JUSTIÇA ELEITORAL</h1>
+       <!--  <div class="direitaCandidato">
+            <p>Números dos Candidatos</p>
+            <img src="img/imgAtalia.jpeg" width="50" height="100">
+            <img src="img/imgJu.jpeg" width="50" height="100">
+            <img src="img/imgKevin.jpeg"width="50" height="100">
+            <img src="img/imgLeti.jpeg"width="50" height="100">
+            <img src="img/imgLelo.jpeg"width="50" height="100">
+            <img src="img/imgLolo.jpeg"width="50" height="100">
+            <img src="img/imgMi.jpeg"width="50" height="100">
+            <img src="img/imgSara.jpeg"width="50" height="100">
+            <img src="img/imgWell.jpeg"width="50" height="100">
+         </div>-->
+        <p>Números:</p>
+        <input class="txt" type="text" id="txt_num1" readonly="readonly">
+        <input class="txt" type="text" id="txt_num2" readonly="readonly">
+    </center>
+    
+        </div> 
+
+        
+       <div class="direita">
+            <div class="direitalogo">
+                <img src="img/logo2.png" width="70" height="70"><h3>JUSTIÇA ELEITORAL</h3>
+              
+            </div>
+            <div class="direitanum">
+                <div class="fileira1">
+                    <button class="bnt click" onclick="inserir(1)">1</button>
+                    <button class="bnt click" onclick="inserir(2)">2</button>
+                    <button class="bnt click" onclick="inserir(3)">3</button>
+                </div>
+                <div class="fileira2">
+                    <button class="bnt click" onclick="inserir(4)">4</button>
+                    <button class="bnt click" onclick="inserir(5)">5</button>
+                    <button class="bnt click" onclick="inserir(6)">6</button>
+                </div>
+                <div class="fileira3">
+                    <button class="bnt click" onclick="inserir(7)">7</button>
+                    <button class="bnt click" onclick="inserir(8)" >8</button>
+                    <button class="bnt click" onclick="inserir(9)">9</button>
+                </div>
+                <div class="fileira4">
+                   <center> <button class="bnt click" onclick="inserir(0)">0</button></center>
+                </div>
+                <div class="bcc">
+                    <button class="branco">BRANCO</button>
+                    <button class="laranja  click" onclick="corrigir()">CORRIGE</button>
+                    <button class="verde" onclick="votar()">CONFIRMA</button>
+                </div>
+
+               
+            </div>
+       </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+body{
+    background-color: rgb(159, 165, 171);
+    
+}
+
+.direita{
+  padding: 0% 2% 10% 2%;
+}
+
+.direitanum{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  flex-direction: column;
+   
+   
+  
+   
+   
+}
+.direitalogo
+{
+   
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #fbf3f3;
+    border: solid 2px black;
+   
+
+   
+}
+.h3{
+  
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    color:black;
+   
+   
+
+}
+
+.principal{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    flex-direction: row;
+    
+}
+.fileira1{
+   text-align: center;
+    background-color:#3d3838;
+}
+.fileira2
+{
+    text-align: center;
+    background-color: #3d3838;
+}
+.fileira3
+{  text-align: center;
+    background-color: #3d3838;
+}
+.fileira4
+{
+    background-color:#3d3838;
+}
+.bnt{
+    margin: 10px;
+    background-color: black;
+    color: snow;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+  }
+  .bcc
+  {
+    background-color:#3d3838;
+  }
+  .laranja{
+    height: 50px;
+    width: 80px;
+    background-color: #E67401;
+    margin: 5px;
+  }
+  .verde{
+    height: 60px;
+    width: 85px;
+    background-color: green;
+    margin: 5px;
+  }
+  .branco{
+    height: 50px;
+    width: 80px;
+    background-color: white;
+    margin: 5px;
+  }
+  .esquerda
+  {
+    border: 2px solid black;
+    background-color: white;
+    padding:  4% 16% 4% 16%;
+    margin-top: 5%;
+    margin-left: 10%;
+   
+  }
+
+  .txt
+  {
+        width: 50px;
+        height: 50px ;
+        border: 2px solid black;
+  }
+
+  .meio{
+     text-align: center;
+     display: inline;
+    margin-left: 5px;
+  }
+
+  
+  .img{
+    height:224px ;
+    width: 225px;
+  }
